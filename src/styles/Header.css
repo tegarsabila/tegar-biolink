@@ -1,0 +1,40 @@
+header nav.logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+header nav.logo img {
+  width: 150px;
+	user-select: none;
+	pointer-events: none;
+  border-radius: 100%;
+  border: #212529 solid;
+}
+
+header nav.logo h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+header nav.logo p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: #F7F7F7;
+	opacity: 0.8;
+}
+
+header nav.logo div.info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem 2rem 2rem 2rem;
+	border-radius: 10px;
+	background-color:rgba(255, 255, 255, 0.2);
+}
+
+header nav.logo h3 {
+	font-size: 1.2rem;
+}
+

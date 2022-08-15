@@ -1,0 +1,17 @@
+.link {
+  display: block;
+  background-color:rgba(255, 255, 255, 0.2);
+  color: #eee;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 600;
+  padding: 15px 0 15px 0;
+  margin: 12px 0 11px 0;
+	border-radius: 10px;
+}
+
+.link:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	color: #212529;
+}
