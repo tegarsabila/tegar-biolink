@@ -3,7 +3,7 @@ import axios from "axios";
 import '../styles/Header.css';
 
 const Header = ({ name, title, img }) => {
-	const [data, getData] = useState('');
+	const [data, getData] = useState([]);
 	const fetchData = async () => {
 		const baseUrl = 'https://api.github.com/users/tegarsabila'
 		try {
@@ -16,7 +16,7 @@ const Header = ({ name, title, img }) => {
 	};
 	useEffect(() => {
 		fetchData();
-	}, [data]);
+	}, []);
 
   return (
 		<header class='content'>
