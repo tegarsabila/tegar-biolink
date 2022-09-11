@@ -1,1 +1,2 @@
-# Biolink with React JS
+# tegar-biolink
+Built Biolink With React JS
